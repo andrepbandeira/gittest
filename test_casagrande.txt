@@ -1,0 +1,26 @@
+===== Check setup =====
+
+<code bash>git remote -v</code>
+{{:howto:remote-v.png?nolink&800|}}
+
+===== WHY THIS?? =====
+**To have a way to update our local new branches. We need a way to get the updates from upstream. Also, this garantee a easy way to create new branches with the most updated upstream/stage changes.**
+{{:howto:git_tree.png?nolink |}}
+
+
+===== Useful Commands =====
+
+**Create and checkout a new branch**
+<code bash>git checkout -b <branch_name></code>
+
+**Delete local branch**
+<code bash>git branch -D <branch_name></code>
+
+**Rename a branch**
+<code bash>git branch -m <new_name></code>
+
+**List of branchs**
+<code bash>git branch -av <new_name></code>
+
+**Undo of branch changes**
+<code bash>git reset --hard</code>
